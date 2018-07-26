@@ -70,7 +70,7 @@
               }
               element.intlTelInput(options);
               if (!(options.skipUtilScriptDownload || attrs.skipUtilScriptDownload !== void 0 || options.utilsScript)) {
-                element.intlTelInput('loadUtils', '/bower_components/international-phone-number/releases/utils.js');
+                element.intlTelInput('loadUtils', 'bower_components/international-phone-number/releases/utils.js');
               }
               return watchOnce();
             });
